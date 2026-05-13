@@ -8,7 +8,7 @@ import { dmSans } from "../layout";
 
 const EngagementModels: React.FC = () => {
   return (
-    <div  className={`min-h-screen bg-white text-gray-900 px-4 sm:px-8 md:px-16 py-16 sm:py-20 flex flex-col items-center justify-center ${dmSans.className} `}>
+    <div className={`min-h-screen bg-white text-gray-900 px-4 sm:px-8 md:px-16 py-16 sm:py-20 flex flex-col items-center justify-center ${dmSans.className}`}>
       {/* Header Section */}
       <motion.div
         initial={{ opacity: 0, y: -50 }}
@@ -20,11 +20,10 @@ const EngagementModels: React.FC = () => {
         <div className="text-center space-y-6 mb-16">
           <p className="text-sm sm:text-base md:text-[15px] font-semibold text-gray-500">Engagement Models</p>
           <h3 className="text-4xl font-semibold text-[#316e72] mb-6">
-            Find the <span className="text-black font-bold"> “Right”</span>{" "}
+            Find the <span className="text-black font-bold">&ldquo;Right&rdquo;</span>{" "}
             package
           </h3>
-
-          <p className="text-md text-gray-500  mx-auto">
+          <p className="text-md text-gray-500 mx-auto">
             Enjoy a range of features designed to enhance your project
             management experience, all at a price that fits your budget.
           </p>
@@ -68,11 +67,8 @@ const EngagementModels: React.FC = () => {
             </div>
             <p className="text-gray-700 text-[15px] leading-relaxed text-justify">
               Need to fill gaps in your development team or looking for specific
-              skill sets?
-              <span className="font-semibold text-[#053b44]">
-                {" "}
-                LeapsDev
-              </span>{" "}
+              skill sets?{" "}
+              <span className="font-semibold text-[#053b44]">LeapsDev</span>{" "}
               can help augment your team for fast, efficient success.
             </p>
           </div>
@@ -112,9 +108,9 @@ const EngagementModels: React.FC = () => {
               <Briefcase className="w-8 h-8 text-[#53b1b8] group-hover:text-white transition-colors duration-300" />
             </div>
             <p className="text-gray-700 text-[15px] leading-relaxed text-justify">
-              Have an idea but no team? We're capable of providing the{" "}
+              Have an idea but no team? We&apos;re capable of providing the{" "}
               <span className="font-semibold text-[#053b44]">Full Package</span>{" "}
-              — from developers to project managers — so you can focus on your
+              &mdash; from developers to project managers &mdash; so you can focus on your
               business goals.
             </p>
           </div>

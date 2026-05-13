@@ -40,11 +40,11 @@ export default function Home() {
 
       {/* Paragraph */}
       <p className="text-sm sm:text-base text-gray-400 max-w-3xl mx-auto mb-6 sm:mb-16 md:mb-20 font-normal px-2">
-        We believe businesses shouldn't crawl through digital transformation — they
-        should leap ahead. We're a collective of top-tier developers, designers,
+        We believe businesses shouldn&apos;t crawl through digital transformation &mdash; they
+        should leap ahead. We&apos;re a collective of top-tier developers, designers,
         marketers, and AI engineers who turn bold ideas into powerful digital
         systems. Whether you need a custom SaaS, intelligent chatbots, or full-blown
-        sales automation, we build the infrastructure for growth — fast, functional,
+        sales automation, we build the infrastructure for growth &mdash; fast, functional,
         and future-ready.
       </p>
 

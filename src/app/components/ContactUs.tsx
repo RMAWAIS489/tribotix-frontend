@@ -50,7 +50,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
       <div className="text-center space-y-6 mb-16">
         <p className="text-sm sm:text-base md:text-[13px] text-gray-500">Get in Touch</p>
         <h3 className="text-4xl font-semibold text-[#316e72] mb-6">
-  Ready to <span className="text-black font-bold">"elevate"</span> your game?
+  Ready to <span className="text-black font-bold">&ldquo;elevate&rdquo;</span> your game?
 </h3>
 
         <p className="text-mdv text-gray-500  mx-auto">

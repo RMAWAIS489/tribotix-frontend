@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
@@ -92,12 +93,15 @@ export default function Reviews() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          {/* 👩 Profile Image */}
-          <img
-            src={testimonial.image}
-            alt={testimonial.name}
-            className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-[#53b1b8] shadow-md"
-          />
+          {/* Profile Image */}
+          <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-full overflow-hidden border-2 border-[#53b1b8] shadow-md shrink-0">
+            <Image
+              src={testimonial.image}
+              alt={testimonial.name}
+              fill
+              className="object-cover"
+            />
+          </div>
 
           {/* 👤 Name & Position */}
           <div className="text-center sm:text-left">
