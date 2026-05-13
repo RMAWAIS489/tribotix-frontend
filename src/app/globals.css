@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-flow {
+  animation: gradient-flow 3s ease infinite;
+}
+
+
+
+@keyframes moveLine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-moveLine {
+  animation: moveLine 3s linear infinite;
+  background-size: 200% 100%;
+  opacity: 0.8;
+}
+
+
+
+
+/* tailwind.config.css or global.css */
+@layer utilities {
+  .noise-bg {
+    background-image: radial-gradient(rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 3px 3px;
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
